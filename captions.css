@@ -1,0 +1,15 @@
+div.view-content {
+    counter-reset: figcounter 0;
+}
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+figcaption:before {
+    content: "Figure "counter(figcounter)". ";
+}
+
+img {
+    counter-increment: figcounter 1;
+}

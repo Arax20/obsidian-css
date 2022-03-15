@@ -1,0 +1,3 @@
+.cm-whitespace::before{
+    color: white !important;
+}

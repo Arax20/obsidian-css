@@ -1,0 +1,8 @@
+.markdown-embed-title {
+    color: transparent;
+}
+
+.markdown-embed-link {
+    text-align: left;
+    padding:  0 calc(var(--nested-padding) / 2) 0 var(--nested-padding);
+}
