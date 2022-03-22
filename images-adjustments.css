@@ -82,6 +82,13 @@ h1, h2, h3 {
     clear: both;
 }
 
+/* Default Image Center */
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 img[alt*="clear"] {
     clear: both;
 }

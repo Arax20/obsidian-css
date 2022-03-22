@@ -1,0 +1,12 @@
+.pdf-embed {
+    -webkit-mask-image: linear-gradient(black,black);
+    -webkit-mask-size: calc(100% - 20px) calc(100% - 90px);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position-y: 67px;
+    -webkit-mask-position-x: calc(50% - 10px);
+    margin-left: 10px;
+}
+
+.pdf-embed[alt="wide"] {
+    height: 475px;
+}
